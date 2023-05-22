@@ -4,7 +4,7 @@ font-family: 'Roboto', sans-serif;
 background: #FFFFFF ;
 }
 .link {
-    text-decoration: none;
+text-decoration: none;
 }
 
 .logo-link {
@@ -12,7 +12,7 @@ font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 800;
 font-style: normal;
-line-height: 21px;
+line-height: 1.17;
 letter-spacing: 0.03em;
 color: #4D5AE5;
 text-transform: uppercase;
@@ -22,11 +22,12 @@ text-transform: uppercase;
 color: #2E2F42;
 
 }
-.nav-list .link {
+.nav-link {
 color: #2E2F42;
+text-decoration: none;
 }
-.nav-list .link:hover,
-.nav-list .link:focus{
+.nav-link:hover,
+.nav-link:focus{
 color: #404bbf
 }
 .nav-list {
@@ -64,29 +65,43 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 color: #FFFFFF;
-background: #2E2F42
+background: #2E2F42;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .main-button {
-font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 color: #FFFFFF;
 background: #4D5AE5;
+line-height: 24px;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
-.features{
+.main-button:hover,
+.main-button:focus{
+background-color: #404BBF;
+}
+.features-list{
 font-family: 'Roboto';
 list-style-type: none;
 }
-.features h3 {
+.h3-list {
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 color: #2E2F42;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
-.features p {
+.p-list {
 font-weight: 400;
 font-size: 16px;
 color: #434455;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
 .second-text {
 font-family: 'Roboto';
@@ -95,8 +110,14 @@ font-weight: 700;
 font-size: 36px;
 text-align: center;
 color: #2E2F42;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
 
+.section-team {
+background-color: #F4F4FD
+}
 .our-team {
 font-family: 'Roboto';
 font-style: normal;
@@ -104,21 +125,31 @@ font-weight: 700;
 font-size: 36px;
 text-align: center;
 color: #2E2F42;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 }
-.ul-our-team {
+.our-team-list {
 font-family: 'Roboto';
 font-style: normal;
 list-style: none;
+background-color: #FFFFFF;
 }
-.ul-our-team h3 {
+.team-list {
 font-weight: 500;
 font-size: 20px;
 color: #2E2F42;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
-.ul-our-team p {
+.team-p-list {
 font-weight: 400;
 font-size: 16px;
 color: #434455;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+letter-spacing: 0.02em;
 }
 .text-footer {
 font-family: 'Roboto';
@@ -132,8 +163,8 @@ letter-spacing: 0.02em;
 .footer {
 background: #2E2F42
 }
-.link-studio .link span {
-color: #2E2F42;
+.link-studio-footer {
+color: #f4f4fd;
 }
 
 .button-portfolio{
