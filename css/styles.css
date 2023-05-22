@@ -11,6 +11,7 @@ background: #FFFFFF ;
 font-family: 'Raleway', sans-serif;
 font-size: 18px;
 font-weight: 800;
+font-style: normal;
 line-height: 21px;
 letter-spacing: 0.03em;
 color: #4D5AE5;
@@ -24,24 +25,37 @@ color: #2E2F42;
 .nav-list .link {
 color: #2E2F42;
 }
+.nav-list .link:hover,
+.nav-list .link:focus{
+color: #404bbf
+}
 .nav-list {
 list-style-type: none;
  font-family: 'Roboto';
 font-weight: 500;
+font-style: normal;
 font-size: 16px;
 list-style: none;
 line-height: 24px;
 letter-spacing: 0.02em;
-
 }
-.contacts-link{
+.address{
+font-style: normal
+}
+.contacts-list{
 list-style-type: none;
 font-style: normal;
 font-family: 'Roboto';
 font-weight: 400;
 font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
 }
-.contacts-link .link{
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+color: #404bbf
+}
+.contacts-list .link{
 color: #434455;
 }
 .main-text {
@@ -83,7 +97,6 @@ text-align: center;
 color: #2E2F42;
 }
 
-}
 .our-team {
 font-family: 'Roboto';
 font-style: normal;
@@ -113,8 +126,16 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 color: #F4F4FD;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
+.footer {
 background: #2E2F42
 }
+.link-studio .link span {
+color: #2E2F42;
+}
+
 .button-portfolio{
 list-style-type: none;
 }
