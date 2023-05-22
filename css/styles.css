@@ -1,0 +1,187 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+font-family: 'Raleway', sans-serif;
+font-size: 18px;
+font-weight: 800;
+color: #4D5AE5;
+text-transform: uppercase;
+text-decoration: none;
+}
+#studio{
+color: #2E2F42;
+
+}
+.menu a {
+color: #2E2F42;
+text-decoration: none;
+}
+.menu {
+list-style-type: none;
+ font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+}
+.contacts{
+list-style-type: none;
+font-style: normal;
+font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+}
+.contacts a {
+color: #434455;
+text-decoration: none;
+}
+.main-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+color: #FFFFFF;
+background: #2E2F42
+}
+.main-button {
+width: 105px;
+height: 24px;
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.features{
+font-family: 'Roboto';
+list-style-type: none;
+}
+.features h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #2E2F42;
+}
+.features p {
+font-weight: 400;
+font-size: 16px;
+color: #434455;
+}
+.second-text {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: #2E2F42;
+}
+.second-text-img {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.second-text-img li {
+  display: inline-block;
+  margin-right: 24px;
+}
+.our-team {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+text-align: center;
+color: #2E2F42;
+}
+.ul-our-team {
+font-family: 'Roboto';
+font-style: normal;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+.ul-our-team li {
+display: inline-block;
+margin-right: 24px;
+}
+.ul-our-team h3 {
+font-weight: 500;
+font-size: 20px;
+color: #2E2F42;
+}
+.ul-our-team p {
+font-weight: 400;
+font-size: 16px;
+color: #434455;
+}
+.text-footer {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #F4F4FD;
+background: #2E2F42
+}
+.button-portfolio{
+list-style-type: none;
+}
+
+.button-portfolio button{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #4D5AE5;
+background: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+
+}
+
+.button-portfolio button:hover {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.button-portfolio button:focus {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #FFFFFF;
+background: #404BBF;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+}
+
+.main-portfolio{
+font-family: 'Roboto';
+font-style: normal;
+list-style-type: none;
+text-decoration: none;
+}
+
+.main-portfolio a{
+    text-decoration: none;
+}
+
+.main-portfolio h3{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #2E2F42;
+}
+
+.main-portfolio p{
+font-weight: 400;
+font-size: 16px;
+color: #434455;
+}
+
