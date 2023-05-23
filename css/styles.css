@@ -1,3 +1,9 @@
+:root{
+    --links: #404bbf;
+    --main-background-color: #2E2F42;
+}
+
+
 .body {
 font-family: 'Roboto', sans-serif;
  color: #434455;
@@ -28,7 +34,7 @@ text-decoration: none;
 }
 .nav-link:hover,
 .nav-link:focus{
-color: #404bbf
+color: var(--links);
 }
 .nav-list {
 list-style-type: none;
@@ -51,10 +57,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: 24px;
 letter-spacing: 0.02em;
+text-decoration: none
 }
 .contacts-list .link:hover,
 .contacts-list .link:focus {
-color: #404bbf
+color: var(--links);
 }
 .contacts-list .link{
 color: #434455;
@@ -65,8 +72,8 @@ font-style: normal;
 font-weight: 700;
 font-size: 56px;
 color: #FFFFFF;
-background: #2E2F42;
-line-height: 60px;
+background-color: var(--main-background-color);
+line-height: 1.07;
 text-align: center;
 letter-spacing: 0.02em;
 }
@@ -114,7 +121,9 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 }
-
+.img-list {
+list-style-type: none;
+}
 .section-team {
 background-color: #F4F4FD
 }
@@ -135,6 +144,10 @@ font-style: normal;
 list-style: none;
 background-color: #FFFFFF;
 }
+.personal-list{
+    background-color: #FFFFFF;
+}
+
 .team-list {
 font-weight: 500;
 font-size: 20px;
@@ -167,20 +180,24 @@ background: #2E2F42
 color: #f4f4fd;
 }
 
-.button-portfolio{
+.button-list{
 list-style-type: none;
 }
 
-.button-portfolio button{
+.button-link{
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
 color: #4D5AE5;
 background: #F4F4FD;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
 }
 
-.button-portfolio button:hover {
+.button-link:hover,
+.button-link:focus {
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -189,16 +206,7 @@ color: #FFFFFF;
 background: #404BBF;
 }
 
-.button-portfolio button:focus {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-color: #FFFFFF;
-background: #404BBF;
-}
-
-.main-portfolio{
+.main-portfolio-list{
 font-family: 'Roboto';
 font-style: normal;
 list-style-type: none;
@@ -209,16 +217,20 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.main-portfolio h3{
+.main-portfolio-list h3{
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
 color: #2E2F42;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
-.main-portfolio p{
+.main-portfolio-list p{
 font-weight: 400;
 font-size: 16px;
 color: #434455;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
