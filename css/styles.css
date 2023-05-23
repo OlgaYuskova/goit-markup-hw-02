@@ -66,6 +66,9 @@ color: var(--links);
 .contacts-list .link{
 color: #434455;
 }
+.section-one{
+background-color: var(--main-background-color);
+}
 .main-text {
 font-family: 'Roboto';
 font-style: normal;
@@ -185,7 +188,7 @@ list-style-type: none;
 }
 
 .button-link{
-font-family: 'Roboto';
+font-family: "Roboto", sans-serif;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -217,7 +220,7 @@ text-decoration: none;
     text-decoration: none;
 }
 
-.main-portfolio-list h3{
+.main-portfolio-list h2{
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;
