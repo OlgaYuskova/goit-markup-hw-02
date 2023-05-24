@@ -94,11 +94,11 @@ cursor: pointer;
 .main-button:focus{
 background-color: #404BBF;
 }
-.features-list{
+.feat-list{
 font-family: 'Roboto';
 list-style-type: none;
 }
-.h3-list {
+.titlle-list {
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -209,7 +209,7 @@ color: #FFFFFF;
 background: #404BBF;
 }
 
-.main-portfolio-list{
+.portfolio-list{
 font-family: 'Roboto';
 font-style: normal;
 list-style-type: none;
